@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%px;
+    margin-left: 5px;
+    margin-right: 150px; 
+
+    background-color: antiquewhite;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.about img{
+    width:2500px;
+}
+
+.fs{
+    padding-top: 70px;
+}
+

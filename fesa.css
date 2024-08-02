@@ -1,0 +1,15 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: 10px;
+    margin-right: 150px;
+    /* margin-top: 50px; */
+}
+
+.fs{
+    padding-top: 70px;
+}

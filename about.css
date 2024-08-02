@@ -1,0 +1,17 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 1px;
+}
+
+
+.ab{
+    padding-top: 70px;
+}

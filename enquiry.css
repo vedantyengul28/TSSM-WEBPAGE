@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    /* background: #000; */
+    width: 1200px;
+    margin-left: 10px;
+    margin-right: 1px;
+    
+}
+body::before{
+    content: "";
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    width: 100%;
+    height:100%;
+    /* opacity: 0.7; */
+    background: url("WhatsApp\ Image\ 2024-08-02\ at\ 11.45.57.jpeg");
+
+    /* background: wheat; */
+    background-position: center;
+}
+
+nav{
+    position: fixed;
+    z-index: 1;
+    padding : 25px 60px;
+}
+
+nav a img{
+    width : 160px;
+}
+
+/* .header {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    padding: 25px;
+    background-color: aliceblue;
+}
+
+.logo {
+    padding-left: 40px;
+    padding-top: 10px;
+    width: 200px;
+    height: auto;
+}
+
+.naac {
+    width: 70px;
+    height: auto;
+} */
+.enq{
+    position: absolute;
+    left : 50%;
+    top: 50%;
+    width: 430px;
+    padding: 60px;
+    padding-top: 70px;
+    border-radius : 4px;
+
+    transform: translate(-50%, -50%) ;
+}
+
+.enq h2{
+    color: #060606;
+    font-size: 2rem;
+}
+
+.enq form{
+    margin: 25px 0 65px;
+}
+
+form .eq-form {
+    position: relative;
+    height : 50px;
+    margin-bottom: 16px;
+}
+.eq-form input{
+    height: 100%;
+    width: 100%;
+    /*background: #333;*/
+    outline: none;
+    border: none;
+    color: #000000;
+    font-size: 1rem;
+    border-radius: 4px;
+    padding: 0 20px;
+}
+.eq-form input:is(:focus, :valid){
+    padding: 16px 20px 0;
+    background: whitesmoke;
+
+}
+.eq-form label{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    color: #8c8c8c;
+    pointer-events: none;
+    font-size: 1rem;
+    transform: translateY(-50%);
+    transition: all 0.1s ease;
+}
+
+.eq-form input:is(:focus, :valid) ~ label{
+    font-size: 0.75rem;
+    transform: translateY(-130%);
+}
+ form button{
+    width: 100px;
+    padding: 16px 0;
+    font-size: 1rem;
+    border:none;
+    outline: none;
+    color: #4f1313;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 4px;
+    /* background: #e50914; */
+    margin: 25px 0 10px;
+    transition: 0.1s ease;
+}
+form button:hover{
+    background: #e50914;
+}
+
+.enq :where(label, p, small,a){
+    color: #b3b3b3;
+}
+
+.enq p a{
+    color: #fff;
+}
+
+.enq small{
+    display: block;
+    margin-top: 15px;
+}
+
+.enq small a{
+    color: #0071eb;
+}
+
+.enq a {
+    text-decoration: none;
+}
+
+.enq a:hover{
+    text-decoration: underline;
+} 
+
+@media (max-width: 740px){
+    body::before{
+        display: none;
+    }
+    nav, .enq{
+        padding: 20px;
+    }
+    nav a img{
+        width: 140px;
+    }
+    .enq{
+        top:43%;
+        width : 100%;
+    }
+    .enq form{
+        margin: 25px 0 40px;
+    }
+}

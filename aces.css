@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: 10px;
+    margin-right: 150px;
+    /* margin-top: 50px; */
+}
+
+.aces{
+    padding-top: 70px;
+}
+
+.title-default-left {
+    text-transform: capitalize;
+    text-align: left;
+    font-weight: 500;
+    margin-bottom: 45px;
+    color: #002147;
+}
+
+.title-bar-high {
+    position: relative;
+}
+
